@@ -49,4 +49,5 @@ fun main(args: Array<String>) {
     println("a12 の値は $a12 です。")
     println("b12 の値は $b12 です。")
     println("c12 の値は $c12 です。")
+    //hennkou
 }
