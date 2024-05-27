@@ -31,14 +31,6 @@ fun main(args: Array<String>) {
     }
 }
 
-/*
-// 21.1
-fun getThreeTimes(value: Int): Int {
-    return value * 3
-}
-*/
-
-// 21.5
 fun getThreeTimes(value: Int) = value * 3
 
 // 21.8

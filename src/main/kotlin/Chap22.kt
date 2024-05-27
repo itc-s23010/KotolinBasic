@@ -1,25 +1,7 @@
 package org.example
 
 fun main(args: Array<String>) {
-    /*
-        run {
-            println("----22.1----")
-            val text = "あいうえお"
-            val number = text.toInt()
-            println(number)
-        }
-    */
-    /*
 
-        run {
-            println("----22.2+----")
-            val text = "-12345"
-            // 何かの方法で text をチェックする
-            // チェックの結果問題なければ進む
-            val number = text.toInt()
-            println(number)
-        }
-    */
     run {
         println("----22.3----")
         print("input: ")
