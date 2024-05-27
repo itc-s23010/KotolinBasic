@@ -2,12 +2,6 @@ package com.example.chap32
 
 fun main(args: Array<String>) {
     run {
-/*        println("----32.1----")
-        var text: String = "あいうえお"
-        text = null
-        println("文字列「${text}」の長さ = ${text.length}")*/
-    }
-    run {
         println("----32.2----")
         var text: String? = "あいうえお"
         text = null
@@ -19,9 +13,7 @@ fun main(args: Array<String>) {
         var text_b: String? = "あいうえお"
         var length_a = countTextLength1(text_a)
         var length_b = countTextLength1(text_b!!)
-//        var length_n = countTextLength1(null)
-//        text_b = null
-//        length_b = countTextLength1(text_b!!)
+
     }
     run {
         println("----32.12----")

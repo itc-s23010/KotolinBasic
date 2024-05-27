@@ -3,15 +3,15 @@ package org.example
 fun main(args: Array<String>) {
     println("-----17.2-----")
     val a2: List<Int> = listOf(1000, 1200, 1500)
-    // インデックス指定するやつ
+
     println("1年目の時給は ${a2[0]}円です。")
     println("2年目の時給は ${a2[1]}円です。")
     println("3年目の時給は ${a2[2]}円です。")
-    // forループ
+
     for (money in a2) {
         println("時給は ${money}円です。")
     }
-    // forループwithIndex
+
     for ((index, money) in a2.withIndex()) {
         println("${index + 1}年目の時給は ${money}円です。")
     }
@@ -32,8 +32,7 @@ fun main(args: Array<String>) {
         println("$i : $x")
     }
     println("--")
-//    a7.add("どうぞ")
-//    a7.add("お願いします")
+
     a7 += "どうぞ"
     a7 += "お願いします"
     for ((i, x) in a7.withIndex()) {

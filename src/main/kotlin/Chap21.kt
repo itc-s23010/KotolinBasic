@@ -3,8 +3,7 @@ package org.example
 fun main(args: Array<String>) {
     run {
         val answer: Int = getThreeTimes(5)
-//    val answer2: Int = getThreeTimes(5.2)
-//    val answer3: Long = getThreeTimes(5)
+
         println(answer)
     }
     run {

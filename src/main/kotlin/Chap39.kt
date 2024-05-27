@@ -41,9 +41,6 @@ fun main(args: Array<String>) {
             println(it)
         }
 
-//        for (s in list) {
-//            println(s)
-//        }
     }
     run {
         println("----39.6----")

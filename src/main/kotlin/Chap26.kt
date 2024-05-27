@@ -4,43 +4,42 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 
 fun main(args: Array<String>) {
-    // 書籍情報概要(BookInfo)がほしい (プライマリコンストラクタのみを使う場合)
-    // 1.まずは Book がないと始まらない
+
     val book = Book(
         100,
         "やさしい Kotlin 入門",
         "野崎英一",
         LocalDate.of(2018, 5, 10)
     )
-    // 2.貸出情報 Rental を作る
+
     val rental = Rental(
         book.id,
         "タケシ",
         LocalDateTime.now(),
         LocalDateTime.of(2024, 5, 28, 12, 30)
     )
-    // 3.book と rental を合わせた BookWithRental を作る
+
     val bookWithRental = BookWithRental(
         book, rental
     )
-    // 4.まとめた bookWithRental を使って BookInfo が作れる
+
     val bookInfo = BookInfo(
         bookWithRental.book.id,
         bookWithRental.book.title,
         bookWithRental.book.author,
         bookWithRental.isRental
     )
-    // 5.中身を表示
+
     bookInfo.printInfo()
 
-    // 4.2 別パターン
+
     val bookInfo2 = BookInfo(
         book.id,
         book.title,
         book.author,
         true
     )
-    // 4.3 理想的なパターン
+
     val bookInfo3 = BookInfo(bookWithRental)
 }
 

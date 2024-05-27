@@ -1,10 +1,8 @@
 package org.example
 
 fun main(args: Array<String>) {
-//    val original: Byte = 100             // 8.1+
-//    val original: Int = 100_000          // 8.2
-//    val original: String = "100"         // 8.3
-    val original: String = "あいうえお"    // 8.4
+
+    val original: String = "あいうえお"
 
     val a: Byte = original.toByte()
     val b: Short = original.toShort()

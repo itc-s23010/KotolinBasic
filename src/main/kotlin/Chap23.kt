@@ -32,16 +32,16 @@ fun main(args: Array<String>) {
     }
 }
 
-// 名前以外何も決めないクラス
+
 class Person1
 
-// プロパティ(属性)だけ定義したクラス
+
 class Person2 {
     var name = ""
     var age = 0
 }
 
-// プロパティとメソッド(関数)を定義したクラス
+
 class Person3 {
     var name = ""
     var age = 0

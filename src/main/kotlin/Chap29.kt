@@ -55,12 +55,3 @@ fun driveByFerrari(car: Ferrari) {
 fun driveByPrius(car: Prius) {
     car.drive(100.0)
 }
-
-// 29.3
-//fun driveByCar(car: Ferrari) {
-//    car.drive(100.0)
-//}
-//
-//fun driveByCar(car: Prius) {
-//    car.drive(100.0)
-//}

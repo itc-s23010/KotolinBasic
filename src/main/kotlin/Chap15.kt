@@ -2,7 +2,6 @@ package org.example
 
 import kotlin.random.Random
 
-//  a < 5 ? "trueのときの結果" : "falseのときの結果"
 
 fun main(args: Array<String>) {
     println("----15.2----")

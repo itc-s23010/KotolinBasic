@@ -34,7 +34,6 @@ fun main(args: Array<String>) {
     }
 }
 
-// 35.1
 data class Person(val name: String, val myNumber: Int)
 
 class BrokenPerson(val name: String, val myNumber: Int)

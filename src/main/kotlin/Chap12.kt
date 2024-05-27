@@ -11,8 +11,7 @@ fun main(args: Array<String>) {
     println("----12.2----")
     val x2 = 2
     when (x2) {
-//        1 -> println("ワン")
-//        2 -> println("ツー")
+
         1, 2 -> {
             println("ワンかツーのどちらかです")
             println("こんにちは")
