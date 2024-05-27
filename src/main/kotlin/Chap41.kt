@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
         box2.setValues("整数ですよ", 1000)
         box1.printValues()
         box2.printValues()
+//
 
     }
 }
