@@ -14,4 +14,31 @@ fun main(args: Array<String>) {
         println(result2)
         println(result3)
     }
+
+    run {
+        println("----39.2----")
+        printResult({ x, y -> x + y })
+    }
+
+    run {
+        println("----39.3----")
+        val function2: (String) -> String = fun(x) = x + "ちゃん"
+        val function3: (String) -> String = { x -> x + "ちゃん" }
+        val function4: (String) -> String = { it + "ちゃん" }
+
+        println(function2("たけし"))
+        println(function3("たけし"))
+        println(function4("たけし"))
+    }
+    run {
+        println("----39.4----")
+        val list = listOf("あ","い","う","え","お")
+        list.forEach { println(it) }
+
+    }
+}
+
+fun printResult(calculator: (Double, Double) -> Double) {
+    val result = calculator(10.0, 2.0)
+    println("計算結果:　$result" )
 }

@@ -19,8 +19,3 @@ fun printRandomValuesCalclation(calculator: (Double, Double) -> Double) {
     println("$x　と $y　の計算結果は $result　です。")
 }
 
-fun getCalculator(type: String): (Double, Double) -> Double {
-    val p = fun(x: Double, y: Double) = x + y
-    val m = fun(x: Double, y: Double) = x - y
-    return { x, y -> p(x + p, y + m) }
-}
