@@ -7,3 +7,4 @@ fun main() {
 }
 
 fun String.getOneTwoFiveMessage() = "一に${this}、二に${this}、三、四がなくて五に${this}"
+//
